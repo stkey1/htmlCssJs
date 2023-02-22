@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <h1 class="main-header">Lütfen Formu Eksiksiz Doldurunuz</h1>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+<body>
+<form id="form1">
+<hr>
+    <section>
+        <h2 class="main-header">Hesap Bilgileriniz</h2>
+        <table border="0">
+            <tr>
+                <td>Kullanıcı Adı:</td>
+                <td><input class="style" type="text" name="KullanıcıAdı" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
+            </tr>
+            <tr>
+                <td>Eposta:</td>
+                <td><input class="style" type="text"name="soyad"id="soyad" required placeholder="Lütfen Epostanızı Girin"></td>
+            </tr>
+            <tr>
+                <td>Parola: </td>
+                <td><input class="style" type="password"name="soyad"id="parola" required placeholder="Lütfen Parolanızı Girin"></td>
+            </tr>
+        </table>
+        <h2 class="main-header">Kişisel Bilgileriniz</h2>
+        <table border="0" id="table">
+            <tr>
+                <td>Adınız :</td>
+                <td><input class="style" type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
+            </tr>
+            <tr>
+                <td>Soyadınız:</td>
+                <td><input class="style" type="text"name="soyad"id="soyad" required placeholder="Lütfen Epostanızı Girin"></td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Şehir:</td>
+                <td><select class="style" name="cities" id="cities">
+                    <option value="">--Please choose an option--</option>
+                    <option value="ankara">Angara</option>
+                    <option value="istanbul">İstabul</option>
+                    <option value="izmir">İzmir</option>
+                    <option value="adıyaman">Adıyaman</option>
+                    <option value="antep">Antep</option>
+                    <option value="maraş">Maraş</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Hobileriniz:</td>
+                <td colspan="2">
+                    <input class="style" type="checkbox"name="hobi1" id="hobi1"> Sinema
+                    <input class="style" type="checkbox"name="hobi2" id="hobi2"> Gezmek
+                    <input class="style" type="checkbox"name="hobi3" id="hobi3"> Spor
+                    <input class="style" type="checkbox"name="hobi4" id="hobi4"> Kitap
+                </td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td colspan="2">
+                    <input class="style" type="radio"name="cinsiyet" id="cinsiyetKadin"  value="kadın">KADIN
+                    <input class="style" type="radio" name="cinsiyet" id="cinsiyetErkek" value="erkek">ERKEK
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input class="style" type="submit" name="kaydet" id="kaydet" value="KAYDET">
+                    <input class="style" type="reset" name="sil" id="sil" value="TEMİZLE">
+                </td>
+            </tr>
+        </table>
+    </section>
+<script type="text/javascript" src="/js/function.js" language="javascript"></script>
+</form>
+
+</body>
+
